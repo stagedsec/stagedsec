@@ -47,7 +47,17 @@ cd /path/to/your-repo
 /path/to/stagedsec scan .     # scan the working tree now
 ```
 
-Needs Go 1.22 or newer. Prebuilt binaries will be on the [releases page](https://gitlab.com/stagedsec/stagedsec/-/releases).
+Needs Go 1.22 or newer. Prebuilt binaries with checksums are on the [releases page](https://gitlab.com/stagedsec/stagedsec/-/releases).
+
+**For AI agents (the MCP server, no build step):**
+
+```bash
+claude mcp add stagedsec -- npx -y stagedsec-mcp-server
+```
+
+It is on [npm](https://www.npmjs.com/package/stagedsec-mcp-server). Cursor and other clients: see the [setup guide](https://gitlab.com/stagedsec/stagedsec/-/tree/main/mcp-server).
+
+**In your editor:** Cursor, Windsurf and VSCodium users can search for **StagedSec** in the Extensions panel (it is on [Open VSX](https://open-vsx.org/extension/stagedsec/stagedsec-vscode)). In VS Code, install the `.vsix` from the releases page: Extensions panel, then `…`, then *Install from VSIX*.
 
 ## Honest about its limits
 
