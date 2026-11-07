@@ -61,7 +61,7 @@ It is on [npm](https://www.npmjs.com/package/stagedsec-mcp-server). Cursor and o
 
 ## Honest about its limits
 
-StagedSec is regex-based with about 60 rules. gitleaks has about 220 and detects more kinds of secrets, so run StagedSec alongside gitleaks or TruffleHog rather than instead of them. The [benchmarks](https://gitlab.com/stagedsec/stagedsec/-/tree/main/bench) are public, including the ones where it loses. Bug reports and missing-rule requests are the most useful thing you can send.
+StagedSec is regex-based with about 100 rules. gitleaks has about 220 and detects more kinds of secrets, so run StagedSec alongside gitleaks or TruffleHog rather than instead of them. The [benchmarks](https://gitlab.com/stagedsec/stagedsec/-/tree/main/bench) are public, including the ones where it loses. Bug reports and missing-rule requests are the most useful thing you can send.
 
 ## Teams
 
